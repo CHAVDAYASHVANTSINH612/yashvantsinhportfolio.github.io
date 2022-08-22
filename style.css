@@ -247,3 +247,53 @@ height: 12px;
 border-radius: 3px;
 }
 
+
+@media only screen and (max-width: 1225px) {
+   
+
+    nav{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100vw;
+    }
+
+    nav ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100vw;
+    }
+
+.container2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#linkedin_logo {
+    width: 40px;
+    height: 40px;
+ display: inline-block;
+ margin: auto;
+}
+
+.about_section{
+    height: 400px;
+}
+
+.intro{
+    width: 85%;
+    height: 330px;
+   
+}
+
+
+  }
+
